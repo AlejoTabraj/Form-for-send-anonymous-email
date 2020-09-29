@@ -1,0 +1,55 @@
+input, textarea, button {
+
+  width: 100%;
+  border-color: transparent;
+  border-radius: 6px;
+}
+input{
+  margin-bottom: 3%;
+  height: 28px;
+}
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+  outline: none;
+}
+
+textarea {
+  height: 60px;
+  margin-bottom: 3%;
+}
+
+div {
+  background-color: #F0D6EB;
+  width: 100%;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 25%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+label {
+  color: gray;
+  margin-bottom: 2%;  
+}
+
+.subject {
+  display: flex;
+  align-items: center;
+
+}
+
+
+p {
+  font-size: x-small;
+}
