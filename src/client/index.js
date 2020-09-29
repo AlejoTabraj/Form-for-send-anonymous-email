@@ -14,6 +14,12 @@ export default () => {
 
     onSubmit : async (values) => {
        await sendMessageAction(values.email, values.subject, values.text)
+    },
+
+    validate: values => {
+      if(!values.email){
+        console.log('este campo debe estar escrito')
+      }
     }
 
   })
