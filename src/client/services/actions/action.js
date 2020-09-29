@@ -1,8 +1,6 @@
 import { sendMessage } from '../message.js'
 
-export function sendMessageAction(to, subject, text){
-  console.log(to, subject, text)
-  break
+export function sendMessageAction(to, subject, text){  
   return function (dispatch) {    
     return sendMessage(to, subject, text)
     .then( function(data){
